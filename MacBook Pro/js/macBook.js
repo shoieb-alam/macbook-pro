@@ -78,7 +78,7 @@ function updateTotal() {
 //------ Discount Price calculation ------//
 const discountedPrice = document.getElementById('discounted-price');
 function applyPromo() {
-    const promoCode = document.getElementById('promocode-field')
+    const promoCode = document.getElementById('promocode-field');
     promoCodeText = promoCode.value;
     promoCode.value = ' ';
 
