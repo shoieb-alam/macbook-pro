@@ -80,7 +80,7 @@ const discountedPrice = document.getElementById('discounted-price');
 function applyPromo() {
     const promoCode = document.getElementById('promocode-field');
     promoCodeText = promoCode.value;
-    promoCode.value = ' ';
+    promoCode.value = '';
 
     if (promoCodeText.toLowerCase() == 'stevekaku') {
         const total = parseFloat(totalPrice.innerText);
